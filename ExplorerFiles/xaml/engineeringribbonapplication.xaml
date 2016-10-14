@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<RibbonApplicationMenu xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:SimExplorer="clr-namespace:Kongsberg.KSpice.SimExplorer;assembly=SimExplorer" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <RibbonApplicationMenu.AuxiliaryPaneContent>
+    <RibbonGallery ScrollViewer.VerticalScrollBarVisibility="Auto">
+      <RibbonGalleryCategory>
+        <RibbonGalleryCategory.HeaderTemplate>
+          <DataTemplate>
+            <TextBlock FontWeight="Bold" Margin="4,2,0,4" Text="Recent Graphics"/>
+          </DataTemplate>
+        </RibbonGalleryCategory.HeaderTemplate>
+        <RibbonGalleryCategory.ItemsPanel>
+          <ItemsPanelTemplate>
+            <StackPanel IsItemsHost="True" Orientation="Vertical"/>
+          </ItemsPanelTemplate>
+        </RibbonGalleryCategory.ItemsPanel>
+        <SimExplorer:UIControlRibbonGalleryItem Content="GitHubTest" Name="menu_engineeringribbonapplication_0_0"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="BALLAST AND STRIPPING SYSTEM COL4 NW" IsEnabled="False" Name="menu_engineeringribbonapplication_0_1"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="CompressorAndMotorDemo" IsEnabled="False" Name="menu_engineeringribbonapplication_0_2"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="BOG compressors 10" IsEnabled="False" Name="menu_engineeringribbonapplication_0_3"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="bug" IsEnabled="False" Name="menu_engineeringribbonapplication_0_4"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Graphic2" IsEnabled="False" Name="menu_engineeringribbonapplication_0_5"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Vapor return blowers 6" IsEnabled="False" Name="menu_engineeringribbonapplication_0_6"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Regas_case7" IsEnabled="False" Name="menu_engineeringribbonapplication_0_7"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="K-Spice Tutorial" IsEnabled="False" Name="menu_engineeringribbonapplication_0_8"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Section25" IsEnabled="False" Name="menu_engineeringribbonapplication_0_9"/>
+      </RibbonGalleryCategory>
+      <RibbonGalleryCategory>
+        <RibbonGalleryCategory.HeaderTemplate>
+          <DataTemplate>
+            <TextBlock FontWeight="Bold" Margin="4,2,0,4" Text="Recent Models"/>
+          </DataTemplate>
+        </RibbonGalleryCategory.HeaderTemplate>
+        <RibbonGalleryCategory.ItemsPanel>
+          <ItemsPanelTemplate>
+            <StackPanel IsItemsHost="True" Orientation="Vertical"/>
+          </ItemsPanelTemplate>
+        </RibbonGalleryCategory.ItemsPanel>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Stampede_MB" IsEnabled="False" Name="menu_engineeringribbonapplication_1_0"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="CompressorAndMotorDemo" IsEnabled="False" Name="menu_engineeringribbonapplication_1_1"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="BOG compressors 10" IsEnabled="False" Name="menu_engineeringribbonapplication_1_2"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Gudmund Totland v2" IsEnabled="False" Name="menu_engineeringribbonapplication_1_3"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Vapor return blowers 6" IsEnabled="False" Name="menu_engineeringribbonapplication_1_4"/>
+      </RibbonGalleryCategory>
+      <RibbonGalleryCategory>
+        <RibbonGalleryCategory.HeaderTemplate>
+          <DataTemplate>
+            <TextBlock FontWeight="Bold" Margin="4,2,0,4" Text="Recent Projects"/>
+          </DataTemplate>
+        </RibbonGalleryCategory.HeaderTemplate>
+        <RibbonGalleryCategory.ItemsPanel>
+          <ItemsPanelTemplate>
+            <StackPanel IsItemsHost="True" Orientation="Vertical"/>
+          </ItemsPanelTemplate>
+        </RibbonGalleryCategory.ItemsPanel>
+        <SimExplorer:UIControlRibbonGalleryItem Content="OG-Production-MatchDemo" Name="menu_engineeringribbonapplication_2_0"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Tornio" Name="menu_engineeringribbonapplication_2_1"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="DemoProject" Name="menu_engineeringribbonapplication_2_2"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="DemoProject_stian" Name="menu_engineeringribbonapplication_2_3"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Karsto" Name="menu_engineeringribbonapplication_2_4"/>
+      </RibbonGalleryCategory>
+    </RibbonGallery>
+  </RibbonApplicationMenu.AuxiliaryPaneContent>
+
+  <SimExplorer:UIControlRibbonApplicationMenuItem Header="New           " ImageSource="icons8/r_new.png" KeyTip="N" Name="menu_engineeringribbonapplication_3_0">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="New Project" ImageSource="icons8/r_newproject.png" KeyTip="P" Name="menu_engineeringribbonapplication_4_0" ToolTipDescription="Close the current project and create a new project with an empty model." ToolTipImageSource="icons8/r_newproject.png" ToolTipTitle="New Project"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="New Model" ImageSource="icons8/r_newmodel.png" KeyTip="M" Name="menu_engineeringribbonapplication_5_0" ToolTipDescription="Close the current model and create a new empty model." ToolTipImageSource="icons8/r_newmodel.png" ToolTipTitle="New Model"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="New Graphic" ImageSource="icons8/r_newgraphic.png" KeyTip="G" Name="menu_engineeringribbonapplication_6_0" ToolTipDescription="Create a new graphic." ToolTipImageSource="icons8/r_newgraphic.png" ToolTipTitle="New Graphic"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="New Resource" ImageSource="icons8/r_newresource.png" KeyTip="R" Name="menu_engineeringribbonapplication_7_0" ToolTipDescription="Create a new project resource set for storing custom symbols and scripts etc." ToolTipImageSource="icons8/r_newresource.png" ToolTipTitle="New Resource"/>
+  </SimExplorer:UIControlRibbonApplicationMenuItem>
+
+  <SimExplorer:UIControlRibbonApplicationMenuItem Header="Open" ImageSource="icons8/r_open.png" KeyTip="O" Name="menu_engineeringribbonapplication_8_0">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Open Project" ImageSource="icons8/r_openproject.png" KeyTip="P" Name="menu_engineeringribbonapplication_9_0" ToolTipDescription="Open an existing project." ToolTipImageSource="icons8/r_openproject.png" ToolTipTitle="Open Project"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Open Graphic" ImageSource="icons8/r_opengraphic.png" KeyTip="G" Name="menu_engineeringribbonapplication_10_0" ToolTipDescription="Open an existing graphic." ToolTipImageSource="icons8/r_opengraphic.png" ToolTipTitle="Open Graphic (Ctrl+O)"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Open Graphic in New Window" ImageSource="icons8/r_newwindow.png" KeyTip="N" Name="menu_engineeringribbonapplication_11_0" ToolTipDescription="Open an existing graphic in a new window." ToolTipImageSource="icons8/r_newwindow.png" ToolTipTitle="Open Graphic in New Window"/>
+  </SimExplorer:UIControlRibbonApplicationMenuItem>
+
+  <SimExplorer:UIControlRibbonApplicationMenuItem Header="Load" ImageSource="icons8/r_load.png" KeyTip="L" Name="menu_engineeringribbonapplication_12_0">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Load Model Files" ImageSource="icons8/r_loadmodel.png" KeyTip="M" Name="menu_engineeringribbonapplication_13_0" ToolTipDescription="Load an existing model with any associated parameters and values, or load individual model files" ToolTipImageSource="icons8/r_loadmodel.png" ToolTipTitle="Load Model Files (Ctrl+L)"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Load Initial Conditions" ImageSource="icons8/r_loadic.png" KeyTip="C" Name="menu_engineeringribbonapplication_14_0" ToolTipDescription="Load an initial conditions file." ToolTipImageSource="icons8/r_loadic.png" ToolTipTitle="Load Initial Conditions"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Load History" ImageSource="icons8/r_loadhistory.png" KeyTip="H" Name="menu_engineeringribbonapplication_15_0" ToolTipDescription="Load a previously saved history file." ToolTipImageSource="icons8/r_loadhistory.png" ToolTipTitle="Load History"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Load Snapshot" ImageSource="icons8/r_loadsnapshot.png" KeyTip="S" Name="menu_engineeringribbonapplication_16_0" ToolTipDescription="Load and manage snapshot files." ToolTipImageSource="icons8/r_loadsnapshot.png" ToolTipTitle="Load Snapshot"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Load External Files" ImageSource="icons8/r_loadextfiles.png" KeyTip="X" Name="menu_engineeringribbonapplication_17_0" ToolTipDescription="Select and load snapshot or conditions files from an external location or project." ToolTipImageSource="icons8/r_loadextfiles.png" ToolTipTitle="Load External Files"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Load Workspace" ImageSource="icons8/r_loadworkspace.png" KeyTip="W" Name="menu_engineeringribbonapplication_18_0" ToolTipDescription="Load a previously saved workspace." ToolTipImageSource="icons8/r_loadworkspace.png" ToolTipTitle="Load Workspace"/>
+  </SimExplorer:UIControlRibbonApplicationMenuItem>
+
+  <SimExplorer:UIControlRibbonApplicationMenuItem Header="Close" ImageSource="icons8/r_close.png" KeyTip="C" Name="menu_engineeringribbonapplication_19_0">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Close Graphic" ImageSource="icons8/r_closegraphic.png" KeyTip="G" Name="menu_engineeringribbonapplication_20_0" ToolTipDescription="Close the active graphic." ToolTipImageSource="icons8/r_closegraphic.png" ToolTipTitle="Close Graphic"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Close All Graphics" ImageSource="icons8/r_closeallgraphics.png" KeyTip="A" Name="menu_engineeringribbonapplication_21_0" ToolTipDescription="Close all opened graphics." ToolTipImageSource="icons8/r_closeallgraphics.png" ToolTipTitle="Close All Graphics"/>
+  </SimExplorer:UIControlRibbonApplicationMenuItem>
+
+  <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save" ImageSource="icons8/r_save.png" KeyTip="S" Name="menu_engineeringribbonapplication_22_0">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save All" ImageSource="icons8/r_saveall.png" KeyTip="A" Name="menu_engineeringribbonapplication_23_0" ToolTipDescription="Save all modified model and graphic files (excluding initial conditions). (Ctrl+S)" ToolTipImageSource="icons8/r_saveall.png" ToolTipTitle="Save All (Ctrl+S)"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save Initial Conditions" ImageSource="icons8/r_saveic.png" KeyTip="C" Name="menu_engineeringribbonapplication_24_0" ToolTipDescription="Save active initial conditions file." ToolTipImageSource="icons8/r_saveic.png" ToolTipTitle="Save Initial Conditions"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save Snapshot" ImageSource="icons8/r_savesnapshot.png" KeyTip="S" Name="menu_engineeringribbonapplication_25_0" ToolTipDescription="Save a snapshot of the active timeline at the current time." ToolTipImageSource="icons8/r_savesnapshot.png" ToolTipTitle="Save Snapshot"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save Graphic" ImageSource="icons8/r_savegraphic.png" IsEnabled="False" KeyTip="G" Name="menu_engineeringribbonapplication_26_0" ToolTipDescription="Save the active graphic." ToolTipImageSource="icons8/r_savegraphic.png" ToolTipTitle="Save Graphic"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save All Graphics" ImageSource="icons8/r_saveallgraphics.png" KeyTip="R" Name="menu_engineeringribbonapplication_27_0" ToolTipDescription="Save all open modified graphics." ToolTipImageSource="icons8/r_saveallgraphics.png" ToolTipTitle="Save All Graphics"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save Project Properties" ImageSource="icons8/r_saveproperties.png" KeyTip="P" Name="menu_engineeringribbonapplication_28_0" ToolTipDescription="Save all modified project properties." ToolTipImageSource="icons8/r_saveproperties.png" ToolTipTitle="Save Project Properties"/>
+  </SimExplorer:UIControlRibbonApplicationMenuItem>
+
+  <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save As" ImageSource="icons8/r_saveas.png" KeyTip="A" Name="menu_engineeringribbonapplication_29_0">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save Model As" ImageSource="icons8/r_savemodelas.png" KeyTip="M" Name="menu_engineeringribbonapplication_30_0" ToolTipDescription="Save the current model with any associated parameters, values and graphic, or save individual model files." ToolTipImageSource="icons8/r_savemodelas.png" ToolTipTitle="Save Model As"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save Initial Conditions As" ImageSource="icons8/r_saveicas.png" KeyTip="C" Name="menu_engineeringribbonapplication_31_0" ToolTipDescription="Save active initial conditions file under a different name." ToolTipImageSource="icons8/r_saveicas.png" ToolTipTitle="Save Initial Conditions As"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save History As" ImageSource="icons8/r_savehistoryas.png" KeyTip="H" Name="menu_engineeringribbonapplication_32_0" ToolTipDescription="Save a history files." ToolTipImageSource="icons8/r_savehistoryas.png" ToolTipTitle="Save History As"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save Graphic As" ImageSource="icons8/r_savegraphicas.png" KeyTip="G" Name="menu_engineeringribbonapplication_33_0" ToolTipDescription="Save active graphic under a different name." ToolTipImageSource="icons8/r_savegraphicas.png" ToolTipTitle="Save Graphic As"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Save Workspace As" ImageSource="icons8/r_saveworkspace.png" KeyTip="W" Name="menu_engineeringribbonapplication_34_0" ToolTipDescription="Save the current arrangement of dialogs as a workspace." ToolTipImageSource="icons8/r_saveworkspace.png" ToolTipTitle="Save Workspace As"/>
+  </SimExplorer:UIControlRibbonApplicationMenuItem>
+
+  <SimExplorer:UIControlRibbonApplicationSplitMenuItem Header="Print" ImageSource="icons8/r_print.png" KeyTip="P" Name="menu_engineeringribbonapplication_35_0" ToolTipDescription="Print the active graphic." ToolTipImageSource="icons8/r_print.png" ToolTipTitle="Print">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Print Graphic" ImageSource="icons8/r_print.png" KeyTip="P" Name="menu_engineeringribbonapplication_36_0" ToolTipDescription="Print the active graphic." ToolTipImageSource="icons8/r_print.png" ToolTipTitle="Print Graphic"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Page Setup" ImageSource="icons8/r_pagesetup.png" KeyTip="S" Name="menu_engineeringribbonapplication_37_0" ToolTipDescription="Open the printer Page Setup dialog." ToolTipImageSource="icons8/r_pagesetup.png" ToolTipTitle="Page Setup (Ctrl+P)"/>
+  </SimExplorer:UIControlRibbonApplicationSplitMenuItem>
+
+  <SimExplorer:UIControlRibbonApplicationSplitMenuItem Header="Help" ImageSource="icons8/r_help.png" KeyTip="H" Name="menu_engineeringribbonapplication_38_0" ToolTipDescription="Open the K-Spice user guide." ToolTipImageSource="icons8/r_help.png" ToolTipTitle="Help (F1)">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="User Guide" ImageSource="icons8/r_userguide.png" KeyTip="U" Name="menu_engineeringribbonapplication_39_0" ToolTipDescription="Open the K-Spice user guide." ToolTipImageSource="icons8/r_userguide.png" ToolTipTitle="Help (F1)"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Tutorial" ImageSource="icons8/r_tutorial.png" KeyTip="T" Name="menu_engineeringribbonapplication_40_0" ToolTipDescription="Open the K-Spice model building tutorial." ToolTipImageSource="icons8/r_tutorial.png" ToolTipTitle="Tutorial"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Kongsberg.com" ImageSource="icons8/r_wwwkongsberg.png" KeyTip="K" Name="menu_engineeringribbonapplication_41_0" ToolTipDescription="Go to Kongsberg.com" ToolTipImageSource="icons8/r_wwwkongsberg.png" ToolTipTitle="Kongsberg.com"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="About K-Spice" ImageSource="icons8/r_helpabout.png" KeyTip="A" Name="menu_engineeringribbonapplication_42_0" ToolTipDescription="About SimExplorer." ToolTipImageSource="icons8/r_helpabout.png" ToolTipTitle="About K-Spice"/>
+  </SimExplorer:UIControlRibbonApplicationSplitMenuItem>
+
+  <SimExplorer:UIControlRibbonApplicationMenuItem Header="Options" ImageSource="icons8/r_options.png" KeyTip="T" Name="menu_engineeringribbonapplication_43_0" ToolTipDescription="View and modify program options." ToolTipImageSource="icons8/r_options.png" ToolTipTitle="Options"/>
+
+  <SimExplorer:UIControlRibbonApplicationSplitMenuItem Header="Exit" ImageSource="icons8/r_exit.png" KeyTip="E" Name="menu_engineeringribbonapplication_44_0" ToolTipDescription="Exit SimExplorer but leave SimManager running." ToolTipImageSource="icons8/r_exit.png" ToolTipTitle="Exit SimExplorer (Ctrl+E)">
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Exit SimExplorer" ImageSource="icons8/r_exit.png" KeyTip="E" Name="menu_engineeringribbonapplication_45_0" ToolTipDescription="Exit SimExplorer but leave SimManager running." ToolTipImageSource="icons8/r_exit.png" ToolTipTitle="Exit SimExplorer (Ctrl+E)"/>
+    <SimExplorer:UIControlRibbonApplicationMenuItem Header="Exit and Shutdown SimManager" ImageSource="icons8/r_shutdown.png" KeyTip="S" Name="menu_engineeringribbonapplication_46_0" ToolTipDescription="Exit SimExplorer and shut down SimManager." ToolTipImageSource="icons8/r_shutdown.png" ToolTipTitle="Exit and Shutdown SimManager"/>
+  </SimExplorer:UIControlRibbonApplicationSplitMenuItem>
+
+</RibbonApplicationMenu>

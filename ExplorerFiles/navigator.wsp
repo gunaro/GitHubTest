@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<navigator>
+
+  <navigatorTree>
+    <folder expanded="true" name="Timelines" type="1">
+      <folder expanded="true" name="Engineering" type="14">
+        <folder expanded="true" name="Graphics" type="8"/>
+      </folder>
+    </folder>
+    <folder expanded="false" name="Recent Graphics" type="24">
+      <node name="GitHubTest.xdr" nodeDir="\\rigoberto\d$\k-spice-projects\GitHubTest\Timelines/Engineering\ExplorerFiles\ProcessModel\GitHubTest" nodeName="GitHubTest.xdr" nodeSave="true" nodeShortcut="false" nodeType="0" timeline="/Engineering/ProcessModel"/>
+    </folder>
+    <folder expanded="false" name="Windows" type="3"/>
+    <folder expanded="false" name="Workspace" type="4"/>
+    <folder expanded="false" name="Shortcuts" type="7"/>
+  </navigatorTree>
+
+  <symbolsTree>
+    <folder expanded="false" name="Assemblies" type="20"/>
+    <folder expanded="true" name="Symbols" type="0">
+      <folder expanded="false" name="Frames" type="25"/>
+    </folder>
+    <folder expanded="false" name="Shortcuts" type="7"/>
+  </symbolsTree>
+
+  <watchList/>
+
+</navigator>

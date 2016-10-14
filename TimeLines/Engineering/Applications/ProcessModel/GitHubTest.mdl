@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KSpiceData>
+  <FileInfo>
+    <Description></Description>
+    <Comment></Comment>
+    <ModelTime></ModelTime>
+    <SaveTime>2016-10-10T10:20:44.677Z</SaveTime>
+    <ModelFile></ModelFile>
+    <ParameterFile></ParameterFile>
+    <ValueFile></ValueFile>
+    <KernelInfo>K-Spice ModelServer Release 3.5.6.0 (Sep 26 2016 16:29:48)</KernelInfo>
+    <KernelVersion>3.5.6.0</KernelVersion>
+  </FileInfo>
+  <BuildInfo>
+    <Module>
+      <Name>MAbbChokeController.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MAbbChokeController.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MAdsorber.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MAdsorber.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MAIM.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MAIM.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MAlarmAnalog.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.2</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MAlarmAnalog.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MArithmeticOperator.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.2</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MArithmeticOperator.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MAsynchronousMachine.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.2.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MAsynchronousMachine.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MBitOperations.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MBitOperations.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MBurner.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MBurner.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MCalibrator.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MCalibrator.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MCameron.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MCameron.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MCauseAndEffectChart.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MCauseAndEffectChart.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MCCC.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MCCC.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MCentrifugalPump.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MCentrifugalPump.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MChemicalAbsorption.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MChemicalAbsorption.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MColumnPackedStage.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.2.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MColumnPackedStage.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MColumnTray.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MColumnTray.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MComponentExtractor.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MComponentExtractor.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MConsiMAPS.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MConsiMAPS.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MContinuousFlowCompressor.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.2</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MContinuousFlowCompressor.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MCurveFit.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MCurveFit.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MDevTest.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MDevTest.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MDisplacementPump.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MDisplacementPump.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MDresserRand.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MDresserRand.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MDrum.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.3</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MDrum.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MElectricHeater.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MElectricHeater.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFieldSwitch.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFieldSwitch.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFieldTransmitter.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.3</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFieldTransmitter.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFittings.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFittings.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFixedCatalystBedReactor.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFixedCatalystBedReactor.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFlashCalculator.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFlashCalculator.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFlowAssurance.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFlowAssurance.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFlowElement.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFlowElement.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFlowline.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFlowline.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MFmcSubseaControl.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MFmcSubseaControl.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MGasTurbine.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MGasTurbine.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MGenericASC.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MGenericASC.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MHeatExchangerStream.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.2</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MHeatExchangerStream.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MHydroCyclone.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MHydroCyclone.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MIntegrator.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MIntegrator.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MJetPump.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MJetPump.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MKValueRunTime.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MKValueRunTime.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MLeda.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MLeda.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MLegacy.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MLegacy.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MLogicOperator.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MLogicOperator.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MMembrane.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MMembrane.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MModelBasedLeakDetection.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MModelBasedLeakDetection.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MMultiphaseMeter.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MMultiphaseMeter.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MNorsok.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MNorsok.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MOlga.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MOlga.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MOnline.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MOnline.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MPidcontroller.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.2</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MPidcontroller.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MPipe.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MPipe.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MPistonCompressor.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MPistonCompressor.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MPowerManagementSystem.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MPowerManagementSystem.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MPressureFlowNetwork.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MPressureFlowNetwork.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MProdRS.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.3</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MProdRS.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MProfileViewer.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MProfileViewer.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MReactionConfiguration.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MReactionConfiguration.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MRemoteInput.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MRemoteInput.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MReplacer.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MReplacer.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MReplayOlga.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MReplayOlga.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MResponseEmulation.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MResponseEmulation.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MRockwell.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MRockwell.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSafetyValve.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSafetyValve.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSeparator.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSeparator.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSetResetLatch.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSetResetLatch.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSFC.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSFC.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MShipOrientation.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.49</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MShipOrientation.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSignalLogic.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSignalLogic.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSignalManipulator.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.2</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSignalManipulator.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSolarASC.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSolarASC.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSplitRange.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSplitRange.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MStatoilIPR.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MStatoilIPR.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSteadyStateIdentifier.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSteadyStateIdentifier.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MStreamBoundary.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.2</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MStreamBoundary.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MSwitch.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MSwitch.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MTableView.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.2</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MTableView.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MThermoControl.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MThermoControl.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MTimer.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MTimer.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MTurboExpander.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MTurboExpander.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MVacuumPump.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MVacuumPump.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MValve.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MValve.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MVirtuoso.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.0.0.0</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MVirtuoso.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MViscosityCalculations.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MViscosityCalculations.dll</AbsName>
+    </Module>
+    <Module>
+      <Name>MWaterEstimator.dll</Name>
+      <ProductVer>3.5.6.0</ProductVer>
+      <ModuleVer>1.1.1.1</ModuleVer>
+      <BuildUser>k-build</BuildUser>
+      <BuildComputer>BUILDSRV12</BuildComputer>
+      <AbsName>C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\MWaterEstimator.dll</AbsName>
+    </Module>
+  </BuildInfo>
+  <Block Name="ThermoControlCenter" Type="ThermoControl" Description="Thermodynamics Control" State="g" StepBase="1" >
+    <Drawing></Drawing>
+    <Sizes keyword="ThermoMethods" >0</Sizes>
+    <Sizes keyword="StreamComponents" >17</Sizes>
+    <Sizes keyword="StreamComponentsForSwapTables" >17</Sizes>
+    <Sizes keyword="NumberOfOnlineTables" >1</Sizes>
+    <Sizes keyword="NumberOfStreamsAutoSwapTables" >1</Sizes>
+    <Sizes keyword="NumberOfTablesEachAutoSwap" >2</Sizes>
+    <Sizes keyword="Stages" >1</Sizes>
+    <Inputs>
+    </Inputs>
+    <DataItems>
+    </DataItems>
+  </Block>
+</KSpiceData>

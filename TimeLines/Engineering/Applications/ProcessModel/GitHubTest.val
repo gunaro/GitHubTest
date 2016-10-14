@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KSpiceData>
+  <FileInfo>
+    <Description></Description>
+    <Comment></Comment>
+    <ModelTime> 0000000:00:00.00</ModelTime>
+    <SaveTime>2016-10-10T10:20:44.856Z</SaveTime>
+    <ModelFile>\\rigoberto\d$\k-spice-projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.mdl</ModelFile>
+    <ParameterFile>\\rigoberto\d$\k-spice-projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.prm</ParameterFile>
+    <ValueFile></ValueFile>
+    <KernelInfo>K-Spice ModelServer Release 3.5.6.0 (Sep 26 2016 16:29:48)</KernelInfo>
+    <KernelVersion>3.5.6.0</KernelVersion>
+  </FileInfo>
+  <Block Name="ThermoControlCenter" Commissioned="false" State="g" StepBase="1" >
+    <DataItems>
+      <DataItem Name="CurrentDirectory" >
+        <Value></Value>
+      </DataItem>
+      <DataItem Name="ReloadMethods" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="MethodLoadStatus" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="NumberOfComponents" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="ThermoMethodRef" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="ThermoMethodsInitialized" >
+        <Value>false</Value>
+      </DataItem>
+      <DataItem Name="ReferenceStreamForAutoUpdate" >
+        <Array>
+          <TRMOSTR index="0" >
+            <!-- principal properties -->
+            <m>0</m>
+            <f>0</f>
+            <w>0.00100000000000000002</w>
+            <t>0</t>
+            <p>0</p>
+            <h>0</h>
+            <r>0.00100000000000000002</r>
+            <g>0</g>
+            <a>0</a>
+            <q>0</q>
+            <!-- other properties -->
+            <v index="0" >0</v>
+            <v index="1" >0</v>
+            <v index="2" >9.99999999999999955e-08</v>
+            <v index="3" >0</v>
+            <v index="4" >0</v>
+            <v index="5" >0</v>
+            <v index="6" >0</v>
+            <v index="7" >0</v>
+            <v index="8" >0</v>
+            <v index="9" >0</v>
+            <v index="10" >0</v>
+            <v index="11" >0</v>
+            <v index="12" >0</v>
+            <v index="13" >0</v>
+            <v index="14" >0</v>
+            <v index="15" >0</v>
+            <!-- parameters -->
+            <c index="0" >0</c>
+            <c index="1" >1.00000000000000008e-05</c>
+            <c index="2" >50</c>
+            <c index="3" >0</c>
+            <c index="4" >0</c>
+            <c index="5" >0</c>
+            <c index="6" >0</c>
+            <c index="7" >0</c>
+            <!-- compositions -->
+            <x index="0" >0.0588235294117647051</x>
+            <x index="1" >0.0588235294117647051</x>
+            <x index="2" >0.0588235294117647051</x>
+            <x index="3" >0.0588235294117647051</x>
+            <x index="4" >0.0588235294117647051</x>
+            <x index="5" >0.0588235294117647051</x>
+            <x index="6" >0.0588235294117647051</x>
+            <x index="7" >0.0588235294117647051</x>
+            <x index="8" >0.0588235294117647051</x>
+            <x index="9" >0.0588235294117647051</x>
+            <x index="10" >0.0588235294117647051</x>
+            <x index="11" >0.0588235294117647051</x>
+            <x index="12" >0.0588235294117647051</x>
+            <x index="13" >0.0588235294117647051</x>
+            <x index="14" >0.0588235294117647051</x>
+            <x index="15" >0.0588235294117647051</x>
+            <x index="16" >0.0588235294117647051</x>
+          </TRMOSTR>
+        </Array>
+      </DataItem>
+      <DataItem Name="TotalDeviationComposition" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="ThermoTableToBeAutoUpdated" >
+        <Array>
+          <Value index="0" >-1</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="TotalDeviationFromRigorous" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="DeviationGasFraction" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="DeviationWaterFraction" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="DeviationEnthalpy" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="DeviationDensity" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="DeviationEntropy" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="TotalDeviationFromLastRigorousInput" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="TimeSinceLastTableUpdateStarted" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="TableBuilderStatus" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="AllowedRigorousDeviation" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="SpecificTableInProgress" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="ReferenceStreamForAutoSwapTables" >
+        <Array>
+          <TRMOSTR index="0" >
+            <!-- principal properties -->
+            <m>0</m>
+            <f>0</f>
+            <w>0.00100000000000000002</w>
+            <t>0</t>
+            <p>0</p>
+            <h>0</h>
+            <r>0.00100000000000000002</r>
+            <g>0</g>
+            <a>0</a>
+            <q>0</q>
+            <!-- other properties -->
+            <v index="0" >0</v>
+            <v index="1" >0</v>
+            <v index="2" >9.99999999999999955e-08</v>
+            <v index="3" >0</v>
+            <v index="4" >0</v>
+            <v index="5" >0</v>
+            <v index="6" >0</v>
+            <v index="7" >0</v>
+            <v index="8" >0</v>
+            <v index="9" >0</v>
+            <v index="10" >0</v>
+            <v index="11" >0</v>
+            <v index="12" >0</v>
+            <v index="13" >0</v>
+            <v index="14" >0</v>
+            <v index="15" >0</v>
+            <!-- parameters -->
+            <c index="0" >0</c>
+            <c index="1" >1.00000000000000008e-05</c>
+            <c index="2" >50</c>
+            <c index="3" >0</c>
+            <c index="4" >0</c>
+            <c index="5" >0</c>
+            <c index="6" >0</c>
+            <c index="7" >0</c>
+            <!-- compositions -->
+            <x index="0" >0.0588235294117647051</x>
+            <x index="1" >0.0588235294117647051</x>
+            <x index="2" >0.0588235294117647051</x>
+            <x index="3" >0.0588235294117647051</x>
+            <x index="4" >0.0588235294117647051</x>
+            <x index="5" >0.0588235294117647051</x>
+            <x index="6" >0.0588235294117647051</x>
+            <x index="7" >0.0588235294117647051</x>
+            <x index="8" >0.0588235294117647051</x>
+            <x index="9" >0.0588235294117647051</x>
+            <x index="10" >0.0588235294117647051</x>
+            <x index="11" >0.0588235294117647051</x>
+            <x index="12" >0.0588235294117647051</x>
+            <x index="13" >0.0588235294117647051</x>
+            <x index="14" >0.0588235294117647051</x>
+            <x index="15" >0.0588235294117647051</x>
+            <x index="16" >0.0588235294117647051</x>
+          </TRMOSTR>
+        </Array>
+      </DataItem>
+      <DataItem Name="ReferenceCompositionForAutoSwapTables" >
+        <Array2D>
+          <Array index="0" >
+            <Value index="0" >0</Value>
+            <Value index="1" >0</Value>
+            <Value index="2" >0</Value>
+            <Value index="3" >0</Value>
+            <Value index="4" >0</Value>
+            <Value index="5" >0</Value>
+            <Value index="6" >0</Value>
+            <Value index="7" >0</Value>
+            <Value index="8" >0</Value>
+            <Value index="9" >0</Value>
+            <Value index="10" >0</Value>
+            <Value index="11" >0</Value>
+            <Value index="12" >0</Value>
+            <Value index="13" >0</Value>
+            <Value index="14" >0</Value>
+            <Value index="15" >0</Value>
+            <Value index="16" >0</Value>
+          </Array>
+        </Array2D>
+      </DataItem>
+      <DataItem Name="SetThermoTablesToBeSwapped" >
+        <Array2D>
+          <Array index="0" >
+            <Value index="0" >0</Value>
+            <Value index="1" >0</Value>
+          </Array>
+        </Array2D>
+      </DataItem>
+      <DataItem Name="AutoUpdateTableDirectory" >
+        <Value></Value>
+      </DataItem>
+      <DataItem Name="ViscosityMethodType" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="KValueMethodType" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="ToleranceDirectCallMultiflash" >
+        <Value>0</Value>
+      </DataItem>
+    </DataItems>
+  </Block>
+</KSpiceData>

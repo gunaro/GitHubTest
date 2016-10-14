@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KSpiceData>
+  <FileInfo>
+    <Description></Description>
+    <Comment></Comment>
+    <ModelTime></ModelTime>
+    <SaveTime>2016-10-10T10:20:44.795Z</SaveTime>
+    <ModelFile>\\rigoberto\d$\k-spice-projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.mdl</ModelFile>
+    <ParameterFile></ParameterFile>
+    <ValueFile></ValueFile>
+    <KernelInfo>K-Spice ModelServer Release 3.5.6.0 (Sep 26 2016 16:29:48)</KernelInfo>
+    <KernelVersion>3.5.6.0</KernelVersion>
+  </FileInfo>
+  <Block Name="ThermoControlCenter" >
+    <DataItems>
+      <DataItem Name="FileSearchMethod" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="FileNames" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="IsUsingFilePrefix" >
+        <Value>false</Value>
+      </DataItem>
+      <DataItem Name="FilePrefix" >
+        <Value></Value>
+      </DataItem>
+      <DataItem Name="ThermoPackage" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="ComponentRelations" >
+        <Value></Value>
+      </DataItem>
+      <DataItem Name="ComponentNameFormat" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="ShowNonConvergence" >
+        <Value>true</Value>
+      </DataItem>
+      <DataItem Name="showFlowingPTOutsideValidRange" >
+        <Value>true</Value>
+      </DataItem>
+      <DataItem Name="showBubbleAndDewPointOutsideValidRange" >
+        <Value>false</Value>
+      </DataItem>
+      <DataItem Name="showRestrictedPTOutsideRange" >
+        <Value>false</Value>
+      </DataItem>
+      <DataItem Name="ShowSystemEvents" >
+        <Value>false</Value>
+      </DataItem>
+      <DataItem Name="ErrorFlowLimit" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="ToleranceDeviationFromBasisComposition" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="AutoUpdateThermoTable" >
+        <Value>false</Value>
+      </DataItem>
+      <DataItem Name="ToleranceDeviationFromRigorous" >
+        <Array>
+          <Value index="0" >0</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="ToleranceUpdateRigorous" >
+        <Array>
+          <Value index="0" >1.00000000000000008e-05</Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="SelectDeviationType" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="SelectPropertyType" >
+        <Value>5</Value>
+      </DataItem>
+      <DataItem Name="TimeUntilModelFreeze" >
+        <Value>10000</Value>
+      </DataItem>
+      <DataItem Name="AllowTableToGrow" >
+        <Value>false</Value>
+      </DataItem>
+      <DataItem Name="TimeDelayAfterTableLoaded" >
+        <Value>100</Value>
+      </DataItem>
+      <DataItem Name="MaximumNumberOfPointsInTable" >
+        <Value>100</Value>
+      </DataItem>
+      <DataItem Name="DistanceTemperaturePoints" >
+        <Value>1</Value>
+      </DataItem>
+      <DataItem Name="DistancePressurePoints" >
+        <Value>100000</Value>
+      </DataItem>
+      <DataItem Name="AutoSwapThermoTable" >
+        <Value>false</Value>
+      </DataItem>
+      <DataItem Name="SelectTableSwapType" >
+        <Value>0</Value>
+      </DataItem>
+      <DataItem Name="FileNamesAutoUpdateWorking" >
+        <Array>
+          <Value index="0" ></Value>
+        </Array>
+      </DataItem>
+      <DataItem Name="GasLiquidViscosityMixingRule" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="NumberOfStages" >
+        <Array>
+        </Array>
+      </DataItem>
+      <DataItem Name="StageTemperature" >
+        <Array2D>
+        </Array2D>
+      </DataItem>
+      <DataItem Name="StagePressure" >
+        <Array2D>
+        </Array2D>
+      </DataItem>
+    </DataItems>
+  </Block>
+</KSpiceData>
