@@ -1,7 +1,7 @@
 Active connections :
 
 Connected to                       Host                Socket  
-/SimulationManager                 Rigoberto           1672    
+/SimulationManager                 GBGUI024            1696    
 
 
 Network Map :                      
@@ -9,4 +9,8 @@ Network Map :
 Member name                        Host                Type                Connected   
 /SimulationManager                                     kSimulationManager  1           
 /Engineering                                           kComEndpoint        1           
+<<<<<<< HEAD
 /Engineering/ProcessModel          Rigoberto           kModelServer        1           
+=======
+/Engineering/ProcessModel          GBGUI024            kModelServer        1           
+>>>>>>> origin/master
