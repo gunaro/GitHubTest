@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
 <RibbonSplitButton xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:SimExplorer="clr-namespace:Kongsberg.KSpice.SimExplorer;assembly=SimExplorer" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
-  <SimExplorer:UIControlRibbonSplitMenuItem Header="Reorder" KeyTip="R" Name="menu_ribbonreorder_1_0"/>
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Reorder" IsEnabled="False" KeyTip="R" Name="menu_ribbonreorder_1_0"/>
 
-  <SimExplorer:UIControlRibbonSplitMenuItem Header="Reorder by Selection" KeyTip="S" Name="menu_ribbonreorder_2_0"/>
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Reorder by Selection" IsEnabled="False" KeyTip="S" Name="menu_ribbonreorder_2_0"/>
 
 </RibbonSplitButton>

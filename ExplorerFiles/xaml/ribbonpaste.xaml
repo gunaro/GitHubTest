@@ -3,6 +3,6 @@
 
   <SimExplorer:UIControlRibbonSplitMenuItem Header="Paste from Clipboard" IsEnabled="False" KeyTip="C" Name="menu_ribbonpaste_1_0"/>
 
-  <SimExplorer:UIControlRibbonSplitMenuItem Header="Paste from File" KeyTip="F" Name="menu_ribbonpaste_2_0"/>
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Paste from File" IsEnabled="False" KeyTip="F" Name="menu_ribbonpaste_2_0"/>
 
 </RibbonSplitButton>
