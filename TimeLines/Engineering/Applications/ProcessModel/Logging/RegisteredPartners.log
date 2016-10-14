@@ -1,8 +1,4 @@
 Partner                            Host                Connected   Socket  
-<<<<<<< HEAD
-/Engineering                                           1           1716    
-/SimulationManager                 Rigoberto           1           1716    
-=======
 /Engineering                                           1           1500    
+/Explorers/Explorer_7                                  1           1500    
 /SimulationManager                 GBGUI024            1           1500    
->>>>>>> origin/master
