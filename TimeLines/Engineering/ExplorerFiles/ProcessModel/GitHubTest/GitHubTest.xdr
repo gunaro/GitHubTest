@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<xdr revision="7" entities="1">
+<xdr revision="7" entities="2">
  <drawing id="1" syscol1="ivory" syscol2="black" syscol3="orange" status="11"/>
  <viewport id="2" vwidth="841" vheight="594" vunits="mm" gpitch="2,2" goffset="0,0" height="5"/>
  <layer id="34" name="Base"/>
@@ -10,5 +10,8 @@
  <layer id="39" name="Background" visible="true"/>
  <text id="1025" colour="0x005500" depth="4" xy="258,304" height="4" font="Verdana">
   <tstring>Hello World</tstring>
+ </text>
+ <text id="1026" depth="4" xy="264,296" height="4" font="Verdana">
+  <tstring>GitHub</tstring>
  </text>
 </xdr>

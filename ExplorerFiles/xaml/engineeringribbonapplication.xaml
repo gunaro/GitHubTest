@@ -15,15 +15,15 @@
           </ItemsPanelTemplate>
         </RibbonGalleryCategory.ItemsPanel>
         <SimExplorer:UIControlRibbonGalleryItem Content="GitHubTest" Name="menu_engineeringribbonapplication_0_0"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="BALLAST AND STRIPPING SYSTEM COL4 NW" IsEnabled="False" Name="menu_engineeringribbonapplication_0_1"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="CompressorAndMotorDemo" IsEnabled="False" Name="menu_engineeringribbonapplication_0_2"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="BOG compressors 10" IsEnabled="False" Name="menu_engineeringribbonapplication_0_3"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="bug" IsEnabled="False" Name="menu_engineeringribbonapplication_0_4"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Graphic2" IsEnabled="False" Name="menu_engineeringribbonapplication_0_5"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Vapor return blowers 6" IsEnabled="False" Name="menu_engineeringribbonapplication_0_6"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Regas_case7" IsEnabled="False" Name="menu_engineeringribbonapplication_0_7"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="K-Spice Tutorial" IsEnabled="False" Name="menu_engineeringribbonapplication_0_8"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Section25" IsEnabled="False" Name="menu_engineeringribbonapplication_0_9"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="BoylaWell" IsEnabled="False" Name="menu_engineeringribbonapplication_0_1"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="3rd Party Manifold" IsEnabled="False" Name="menu_engineeringribbonapplication_0_2"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Diagnostics-Boyla" IsEnabled="False" Name="menu_engineeringribbonapplication_0_3"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Diagnostics-KnelerA" IsEnabled="False" Name="menu_engineeringribbonapplication_0_4"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Boyla Manifold" IsEnabled="False" Name="menu_engineeringribbonapplication_0_5"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Wells-KnelerA-2" IsEnabled="False" Name="menu_engineeringribbonapplication_0_6"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Wells-KnelerA-1" IsEnabled="False" Name="menu_engineeringribbonapplication_0_7"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Riser Bases" IsEnabled="False" Name="menu_engineeringribbonapplication_0_8"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Overview" IsEnabled="False" Name="menu_engineeringribbonapplication_0_9"/>
       </RibbonGalleryCategory>
       <RibbonGalleryCategory>
         <RibbonGalleryCategory.HeaderTemplate>
@@ -36,11 +36,11 @@
             <StackPanel IsItemsHost="True" Orientation="Vertical"/>
           </ItemsPanelTemplate>
         </RibbonGalleryCategory.ItemsPanel>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Stampede_MB" IsEnabled="False" Name="menu_engineeringribbonapplication_1_0"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="CompressorAndMotorDemo" IsEnabled="False" Name="menu_engineeringribbonapplication_1_1"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="BOG compressors 10" IsEnabled="False" Name="menu_engineeringribbonapplication_1_2"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Gudmund Totland v2" IsEnabled="False" Name="menu_engineeringribbonapplication_1_3"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Vapor return blowers 6" IsEnabled="False" Name="menu_engineeringribbonapplication_1_4"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="GitHubTest" Name="menu_engineeringribbonapplication_1_0"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Alvheim-VFM" IsEnabled="False" Name="menu_engineeringribbonapplication_1_1"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Default" IsEnabled="False" Name="menu_engineeringribbonapplication_1_2"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="CompressorAndMotorDemo" IsEnabled="False" Name="menu_engineeringribbonapplication_1_3"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Stampede_MB" IsEnabled="False" Name="menu_engineeringribbonapplication_1_4"/>
       </RibbonGalleryCategory>
       <RibbonGalleryCategory>
         <RibbonGalleryCategory.HeaderTemplate>
@@ -53,11 +53,11 @@
             <StackPanel IsItemsHost="True" Orientation="Vertical"/>
           </ItemsPanelTemplate>
         </RibbonGalleryCategory.ItemsPanel>
-        <SimExplorer:UIControlRibbonGalleryItem Content="OG-Production-MatchDemo" Name="menu_engineeringribbonapplication_2_0"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Tornio" Name="menu_engineeringribbonapplication_2_1"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="DemoProject" Name="menu_engineeringribbonapplication_2_2"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="DemoProject_stian" Name="menu_engineeringribbonapplication_2_3"/>
-        <SimExplorer:UIControlRibbonGalleryItem Content="Karsto" Name="menu_engineeringribbonapplication_2_4"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="ModulesStandard" Name="menu_engineeringribbonapplication_2_0"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="DemoProject" Name="menu_engineeringribbonapplication_2_1"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Stampede Hull" Name="menu_engineeringribbonapplication_2_2"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="Alvheim-VFM" Name="menu_engineeringribbonapplication_2_3"/>
+        <SimExplorer:UIControlRibbonGalleryItem Content="OG-Production-MatchDemo" Name="menu_engineeringribbonapplication_2_4"/>
       </RibbonGalleryCategory>
     </RibbonGallery>
   </RibbonApplicationMenu.AuxiliaryPaneContent>
