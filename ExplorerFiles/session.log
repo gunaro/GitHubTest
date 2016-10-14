@@ -1,23 +1,22 @@
-14-Oct-16 13:06:44 SimExplorer:  Starting session log \\rigoberto\d$\k-spice-projects\GitHubTest\ExplorerFiles\session.log
-14-Oct-16 13:06:51 SimExplorer:  Possible error: Empty string token in mmiString::pack() for tag FileList@ModelName,
-14-Oct-16 13:06:52 SimManager: /SimulationManager  INFO: Partner application "/Explorers/Explorer_5" connected. (2016-10-14 13:06:42.509)
-14-Oct-16 13:06:56 SimManager: /SimulationManager  INFO: Partner application "/Engineering/ProcessModel" connected. (2016-10-14 13:06:56.778)
-14-Oct-16 13:06:56 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Initialising....
-14-Oct-16 13:06:56 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Loading the available thermo packages.
-14-Oct-16 13:06:56 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
-14-Oct-16 13:06:56 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: The thermo package "ThermoTable" has been loaded.
-14-Oct-16 13:06:56 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Thermo file directory: \\rigoberto\d$\k-spice-projects\GitHubTest\TimeLines\Engineering\Applications\ProcessModel\
-14-Oct-16 13:06:56 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: ThermoControl: Number of thermodynamic methods loaded: 0
-14-Oct-16 13:06:56 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Model polling time set to 1 seconds.
-14-Oct-16 13:06:57 SimManager: /Engineering/ProcessModel  0000000:00:00  PROGRESS: Model initialisation Complete.
-14-Oct-16 13:07:01 SimManager: /SimulationManager  INFO: /Engineering : Loading model file "GitHubTest". (2016-10-14 13:07:01.543)
-14-Oct-16 13:07:01 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Loading the available thermo packages.
-14-Oct-16 13:07:01 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
-14-Oct-16 13:07:01 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: The thermo package "ThermoTable" has been loaded.
-14-Oct-16 13:07:01 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Using user's trend definition settings.
-14-Oct-16 13:07:02 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Removing empty file : pictures.def.
-14-Oct-16 13:07:02 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Removing empty file : \\rigoberto\d$\k-spice-projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.dbl.
-14-Oct-16 13:07:02 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Model polling time set to 1 seconds.
-14-Oct-16 13:07:03 SimManager: /SimulationManager  INFO: /Engineering : Loading parameter file "GitHubTest". (2016-10-14 13:07:03.152)
-14-Oct-16 13:07:03 SimManager: /SimulationManager  INFO: /Engineering : Loading initial condition file "GitHubTest". (2016-10-14 13:07:03.443)
-14-Oct-16 13:07:03 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Connecting 1 blocks.
+14-Oct-16 13:12:05 SimExplorer:  Starting session log \\GBGUI024\c$\K-Spice-Projects\GitHubTest\ExplorerFiles\session.log
+14-Oct-16 13:12:08 SimManager: /SimulationManager  INFO: Partner application "/Explorers/Explorer_5" connected. (2016-10-14 13:12:05.337)
+14-Oct-16 13:12:18 SimManager: /SimulationManager  INFO: Partner application "/Engineering/ProcessModel" connected. (2016-10-14 13:12:18.495)
+14-Oct-16 13:12:18 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Initialising....
+14-Oct-16 13:12:18 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Loading the available thermo packages.
+14-Oct-16 13:12:18 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
+14-Oct-16 13:12:18 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: The thermo package "ThermoTable" has been loaded.
+14-Oct-16 13:12:18 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Thermo file directory: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\TimeLines\Engineering\Applications\ProcessModel\
+14-Oct-16 13:12:18 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: ThermoControl: Number of thermodynamic methods loaded: 0
+14-Oct-16 13:12:18 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Model polling time set to 1 seconds.
+14-Oct-16 13:12:18 SimManager: /Engineering/ProcessModel  0000000:00:00  PROGRESS: Model initialisation Complete.
+14-Oct-16 13:12:20 SimManager: /SimulationManager  INFO: /Engineering : Loading model file "GitHubTest". (2016-10-14 13:12:20.813)
+14-Oct-16 13:12:20 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Loading the available thermo packages.
+14-Oct-16 13:12:20 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
+14-Oct-16 13:12:20 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: The thermo package "ThermoTable" has been loaded.
+14-Oct-16 13:12:20 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Using user's trend definition settings.
+14-Oct-16 13:12:20 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Removing empty file : pictures.def.
+14-Oct-16 13:12:20 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Removing empty file : \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.dbl.
+14-Oct-16 13:12:20 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Model polling time set to 1 seconds.
+14-Oct-16 13:12:22 SimManager: /SimulationManager  INFO: /Engineering : Loading parameter file "GitHubTest". (2016-10-14 13:12:21.741)
+14-Oct-16 13:12:22 SimManager: /SimulationManager  INFO: /Engineering : Loading initial condition file "GitHubTest". (2016-10-14 13:12:21.789)
+14-Oct-16 13:12:22 SimManager: /Engineering/ProcessModel  0000000:00:00  INFO: Connecting 1 blocks.

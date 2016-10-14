@@ -7,9 +7,7 @@
         <folder expanded="true" name="Models" type="16"/>
       </folder>
     </folder>
-    <folder expanded="false" name="Recent Graphics" type="24">
-      <node name="GitHubTest.xdr" nodeDir="\\rigoberto\d$\k-spice-projects\GitHubTest\Timelines/Engineering\ExplorerFiles\ProcessModel\GitHubTest" nodeName="GitHubTest.xdr" nodeSave="true" nodeShortcut="false" nodeType="0" timeline="/Engineering/ProcessModel"/>
-    </folder>
+    <folder expanded="false" name="Recent Graphics" type="24"/>
     <folder expanded="false" name="Windows" type="3"/>
     <folder expanded="false" name="Workspace" type="4"/>
     <folder expanded="false" name="Shortcuts" type="7"/>
