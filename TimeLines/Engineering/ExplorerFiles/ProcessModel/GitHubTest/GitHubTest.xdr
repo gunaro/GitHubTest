@@ -8,7 +8,7 @@
  <layer id="37" name="Engineer"/>
  <layer id="38" name="Instructor"/>
  <layer id="39" name="Background" visible="true"/>
- <text id="1025" depth="4" xy="258,304" height="4" font="Verdana">
+ <text id="1025" colour="0x005500" depth="4" xy="258,304" height="4" font="Verdana">
   <tstring>Hello World</tstring>
  </text>
 </xdr>
