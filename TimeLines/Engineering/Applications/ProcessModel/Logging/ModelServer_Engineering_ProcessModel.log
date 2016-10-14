@@ -107,6 +107,9 @@
      0000000:00:00  TRACE: Reading file \\rigoberto\d$\k-spice-projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val.
      0000000:00:00  INFO: Connecting 1 blocks.
      0000000:00:00  TRACE: \\rigoberto\d$\k-spice-projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val. Time elapsed: 12 ms.
+<<<<<<< HEAD
+     0000000:00:00  INFO: ******* Shutdown of ModelServer at 2016-10-14 13:13:55 *******
+=======
      0000000:00:00  TRACE: Reading file \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.mdl.
      0000000:00:00  INFO: Loading the available thermo packages.
      0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
@@ -122,6 +125,7 @@
      0000000:00:00  INFO: Connecting 1 blocks.
      0000000:00:00  TRACE: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val. Time elapsed: 14 ms.
      0000000:00:00  INFO: ******* Shutdown of ModelServer at 2016-10-14 13:16:02 *******
+<<<<<<< HEAD
      0000000:00:00  TRACE: Reading file \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.mdl.
      0000000:00:00  INFO: Loading the available thermo packages.
      0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
@@ -137,3 +141,6 @@
      0000000:00:00  INFO: Connecting 1 blocks.
      0000000:00:00  TRACE: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val. Time elapsed: 14 ms.
      0000000:00:00  INFO: ******* Shutdown of ModelServer at 2016-10-14 13:19:19 *******
+=======
+>>>>>>> origin/master
+>>>>>>> origin/master
