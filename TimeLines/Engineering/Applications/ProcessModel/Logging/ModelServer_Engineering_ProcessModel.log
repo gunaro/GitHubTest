@@ -121,3 +121,4 @@
      0000000:00:00  TRACE: Reading file \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val.
      0000000:00:00  INFO: Connecting 1 blocks.
      0000000:00:00  TRACE: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val. Time elapsed: 14 ms.
+     0000000:00:00  INFO: ******* Shutdown of ModelServer at 2016-10-14 13:16:02 *******
