@@ -10,4 +10,3 @@ Member name                        Host                Type                Conne
 /SimulationManager                                     kSimulationManager  1           
 /Engineering                                           kComEndpoint        1           
 /Engineering/ProcessModel          Rigoberto           kModelServer        1           
-/Explorers/Explorer_5                                  kExplorer           1           
