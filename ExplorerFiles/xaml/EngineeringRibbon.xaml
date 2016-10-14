@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<Ribbon Background="#ffffff" CheckedBackground="#c9e0f7" CheckedBorderBrush="#62a2e4" FocusedBackground="#e8eff7" FocusedBorderBrush="#a4cef9" MouseOverBackground="#e8eff7" MouseOverBorderBrush="#a4cef9" Name="panel_EngineeringRibbon_0_0" PressedBackground="#c9e0f7" PressedBorderBrush="#62a2e4" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:SimExplorer="clr-namespace:Kongsberg.KSpice.SimExplorer;assembly=SimExplorer" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Ribbon.HelpPaneContent>
+    <StackPanel Orientation="Horizontal">
+      <SimExplorer:UIControlLegacyContent Margin="2,2,2,2" Name="panel_EngineeringRibbon_2_0"/>
+    </StackPanel>
+  </Ribbon.HelpPaneContent>
+
+  <Ribbon.ApplicationMenu>
+    <RibbonApplicationMenu KeyTip="H" Label="engineeringribbonapplication" SmallImageSource="D:\tfs_explorer_develop\Explorer\Resources\Standard\bitmaps\r_home.ico">
+      <RibbonApplicationMenuItem Header="Failed to load menu"/>
+    </RibbonApplicationMenu>
+  </Ribbon.ApplicationMenu>
+
+  <SimExplorer:UIControlRibbonTab Header="MODEL CONTROL" KeyTip="C" Name="panel_EngineeringRibbon_23_0">
+    <RibbonGroup Header="Setup">
+      <SimExplorer:UIControlRibbonButton KeyTip="TP" Label="Timeline Properties" LargeImageSource="icons8/r_timeline.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_25_0" SmallImageSource="icons8/r_timeline.png" ToolTipDescription="View or modify the properties for each timeline in the project." ToolTipImageSource="icons8/r_timeline.png" ToolTipTitle="Timeline Properties"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="SP" Label="Snapshot Properties" LargeImageSource="icons8/r_snapshotprops.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_26_0" SmallImageSource="icons8/r_snapshotprops.png" ToolTipDescription="View and modify snapshot save and load properties." ToolTipImageSource="icons8/r_snapshotprops.png" ToolTipTitle="Snapshot Properties"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="TH" Label="Thermodynamics" Margin="2,0,0,0" Name="panel_EngineeringRibbon_27_0" SmallImageSource="icons8/r_thermodynamics16.png" ToolTipDescription="Open the thermodynamics control dialog." ToolTipImageSource="icons8/r_thermodynamics16.png" ToolTipTitle="Thermodynamics"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="UN" Label="Units" Margin="2,0,0,0" Name="panel_EngineeringRibbon_28_0" SmallImageSource="icons8/r_units16.png" ToolTipDescription="View and define new unit types." ToolTipImageSource="icons8/r_units16.png" ToolTipTitle="Units"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="HI" Label="History" Margin="2,0,0,0" Name="panel_EngineeringRibbon_29_0" SmallImageSource="icons8/r_history16.png" ToolTipDescription="Set the trend history ranges and sample times." ToolTipImageSource="icons8/r_history16.png" ToolTipTitle="History"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Control">
+      <SimExplorer:UIControlRibbonMenuButton IsEnabled="False" KeyTip="AT" Label="Activate Timeline" LargeImageSource="icons8/r_activate.png" Name="panel_EngineeringRibbon_31_0" SmallImageSource="icons8/r_activate.png" ToolTipDescription="Activate a timeline." ToolTipImageSource="icons8/r_activate.png" ToolTipTitle="Activate Timeline">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonMenuButton>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="LC" Label="Load Initial Conditions" LargeImageSource="icons8/r_loadic.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_32_0" SmallImageSource="icons8/r_loadic.png" ToolTipDescription="Load an initial conditions file." ToolTipImageSource="icons8/r_loadic.png" ToolTipTitle="Load Initial Conditions"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="SC" Label="Save Initial Conditions As" LargeImageSource="icons8/r_saveicas.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_33_0" SmallImageSource="icons8/r_saveicas.png" ToolTipDescription="Save active initial conditions file under a different name." ToolTipImageSource="icons8/r_saveicas.png" ToolTipTitle="Save Initial Conditions As"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="LS" Label="Load Snapshot" LargeImageSource="icons8/r_loadsnapshot2.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_34_0" SmallImageSource="icons8/r_loadsnapshot2.png" ToolTipDescription="Load and manage snapshot files." ToolTipImageSource="icons8/r_loadsnapshot2.png" ToolTipTitle="Load Snapshot"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="SS" Label="Save Snapshot" LargeImageSource="icons8/r_savesnapshot.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_35_0" SmallImageSource="icons8/r_savesnapshot.png" ToolTipDescription="Save a snapshot of the active timeline at the current time." ToolTipImageSource="icons8/r_savesnapshot.png" ToolTipTitle="Save Snapshot"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="EX" Label="Execution" Margin="2,0,0,0" Name="panel_EngineeringRibbon_36_0" SmallImageSource="icons8/r_execution.png" ToolTipDescription="Control the timeline and model execution." ToolTipImageSource="icons8/r_execution.png" ToolTipTitle="Execution"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="RT" Label="Restrict to Realtime" Margin="2,0,0,0" Name="panel_EngineeringRibbon_37_0" SmallImageSource="icons8/r_realtime.png" ToolTipDescription="Limit the model run speed to real-time." ToolTipImageSource="icons8/r_realtime.png" ToolTipTitle="Restrict to Realtime"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="MX" Label="Run at Maximum" Margin="2,0,0,0" Name="panel_EngineeringRibbon_38_0" SmallImageSource="icons8/r_runmax.png" ToolTipDescription="Run the model at maximum speed." ToolTipImageSource="icons8/r_runmax.png" ToolTipTitle="Run at Maximum"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Data Display">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="DT" Label="Define Trend" LargeImageSource="icons8/r_definetrend.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_40_0" SmallImageSource="icons8/r_definetrend.png" ToolTipDescription="Create a new trend page with multiple data items." ToolTipImageSource="icons8/r_definetrend.png" ToolTipTitle="Define Trend"/>
+      <SimExplorer:UIControlRibbonSplitButton IsEnabled="False" KeyTip="OT" Label="Open Trend" LargeImageSource="icons8/r_opentrend.png" Name="panel_EngineeringRibbon_41_0" SmallImageSource="icons8/r_opentrend.png" ToolTipDescription="Open a custom trend page." ToolTipImageSource="icons8/r_opentrend.png" ToolTipTitle="Open Trend">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonSplitButton>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="ST" Label="Set Trend Time-span" LargeImageSource="icons8/r_settimespan.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_42_0" SmallImageSource="icons8/r_settimespan.png" ToolTipDescription="Set the time-span for all open trend displays." ToolTipImageSource="icons8/r_settimespan.png" ToolTipTitle="Set Trend Time-span"/>
+      <SimExplorer:UIControlRibbonMenuButton IsEnabled="False" KeyTip="GR" Label="Graphs" LargeImageSource="icons8/r_graphs.png" Name="panel_EngineeringRibbon_43_0" SmallImageSource="icons8/r_graphs.png" ToolTipDescription="Display graphical data for specific data items." ToolTipImageSource="icons8/r_graphs.png" ToolTipTitle="Graphs">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonMenuButton>
+    </RibbonGroup>
+    <RibbonGroup Header="Overview">
+      <SimExplorer:UIControlRibbonMenuButton IsEnabled="False" KeyTip="CV" Label="Custom Views" LargeImageSource="icons8/r_customviews.png" Name="panel_EngineeringRibbon_45_0" SmallImageSource="icons8/r_customviews.png" ToolTipDescription="Open a custom Project Explorer view page." ToolTipImageSource="icons8/r_customviews.png" ToolTipTitle="Custom Views">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonMenuButton>
+      <SimExplorer:UIControlRibbonMenuButton IsEnabled="False" KeyTip="OV" Label="Module Overview" LargeImageSource="icons8/r_overview.png" Name="panel_EngineeringRibbon_46_0" SmallImageSource="icons8/r_overview.png" ToolTipDescription="Open an overview for a specific block type." ToolTipImageSource="icons8/r_overview.png" ToolTipTitle="Module Overview">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonMenuButton>
+    </RibbonGroup>
+    <RibbonGroup Header="Alarms">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="AA" Label="Active Alarms" LargeImageSource="icons8/r_activealarms.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_48_0" SmallImageSource="icons8/r_activealarms.png" ToolTipDescription="Display the current active alarms." ToolTipImageSource="icons8/r_activealarms.png" ToolTipTitle="Active Alarms"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="AH" Label="History" Margin="2,0,0,0" Name="panel_EngineeringRibbon_49_0" SmallImageSource="icons8/r_alarmhistory16.png" ToolTipDescription="View acknowledged alarm details." ToolTipImageSource="icons8/r_alarmhistory16.png" ToolTipTitle="History"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="AO" Label="Overview" Margin="2,0,0,0" Name="panel_EngineeringRibbon_50_0" SmallImageSource="icons8/r_alarmoverview16.png" ToolTipDescription="Show all configured alarm points." ToolTipImageSource="icons8/r_alarmoverview16.png" ToolTipTitle="Overview"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="AC" Label="Configuration" Margin="2,0,0,0" Name="panel_EngineeringRibbon_51_0" SmallImageSource="icons8/r_configalarm16.png" ToolTipDescription="Modify and add alarm points." ToolTipImageSource="icons8/r_configalarm16.png" ToolTipTitle="Configuration"/>
+      <SimExplorer:UIControlLegacyContent Margin="2,2,2,2" Name="panel_EngineeringRibbon_52_0"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="AK" Label="Acknowledge All" LargeImageSource="icons8/r_ackall.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_53_0" SmallImageSource="icons8/r_ackall.png" ToolTipDescription="Acknowledge all unacknowledged alarms." ToolTipImageSource="icons8/r_ackall.png" ToolTipTitle="Acknowledge All"/>
+    </RibbonGroup>
+  </SimExplorer:UIControlRibbonTab>
+
+  <SimExplorer:UIControlRibbonTab Header="MODEL BUILDING" KeyTip="B" Name="panel_EngineeringRibbon_54_0">
+    <RibbonGroup Header="New">
+      <SimExplorer:UIControlRibbonSplitButton IsEnabled="False" KeyTip="NG" Label="New Graphic" LargeImageSource="icons8/r_newgraphic.png" Name="panel_EngineeringRibbon_56_0" SmallImageSource="icons8/r_newgraphic.png" ToolTipDescription="Create a new graphic." ToolTipImageSource="icons8/r_newgraphic.png" ToolTipTitle="New Graphic">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonSplitButton>
+    </RibbonGroup>
+    <RibbonGroup Header="Clipboard">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="CT" Label="Cut" LargeImageSource="icons8/r_cut.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_58_0" SmallImageSource="icons8/r_cut.png" ToolTipDescription="Cut and store model data on the graphic. (Ctrl+X)" ToolTipImageSource="icons8/r_cut.png" ToolTipTitle="Cut"/>
+      <SimExplorer:UIControlRibbonSplitButton IsEnabled="False" KeyTip="CP" Label="Copy" LargeImageSource="icons8/r_copy.png" Name="panel_EngineeringRibbon_59_0" SmallImageSource="icons8/r_copy.png" ToolTipDescription="Copy and store model data on the graphic. (Ctrl+C)" ToolTipImageSource="icons8/r_copy.png" ToolTipTitle="Copy">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonSplitButton>
+      <SimExplorer:UIControlRibbonSplitButton IsEnabled="False" KeyTip="PS" Label="Paste" LargeImageSource="icons8/r_paste.png" Name="panel_EngineeringRibbon_60_0" SmallImageSource="icons8/r_paste.png" ToolTipDescription="Paste previously stored model data on to the graphic. (Ctrl+V)" ToolTipImageSource="icons8/r_paste.png" ToolTipTitle="Paste">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonSplitButton>
+    </RibbonGroup>
+    <RibbonGroup Header="Edit">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="UN" Label="Undo" LargeImageSource="icons8/r_undo.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_62_0" SmallImageSource="icons8/r_undo.png" ToolTipDescription="Undo the previous graphic edits." ToolTipImageSource="icons8/r_undo.png" ToolTipTitle="Undo"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="RN" Label="Rename" LargeImageSource="icons8/r_rename.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_63_0" SmallImageSource="icons8/r_rename.png" ToolTipDescription="Rename the selected blocks. (F2)" ToolTipImageSource="icons8/r_rename.png" ToolTipTitle="Rename"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="CV" Label="Copy Values" LargeImageSource="icons8/r_copyvalues.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_64_0" SmallImageSource="icons8/r_copyvalues.png" ToolTipDescription="Copy parameter and/or condition values from a source block to one or more selected blocks of the same type." ToolTipImageSource="icons8/r_copyvalues.png" ToolTipTitle="Copy Values"/>
+      <SimExplorer:UIControlRibbonSplitButton IsEnabled="False" KeyTip="RO" Label="Reorder" LargeImageSource="icons8/r_reorder.png" Name="panel_EngineeringRibbon_65_0" SmallImageSource="icons8/r_reorder.png" ToolTipDescription="Change the execution order of all or selected blocks." ToolTipImageSource="icons8/r_reorder.png" ToolTipTitle="Reorder">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonSplitButton>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="CM" Label="Change Module Type" Margin="2,0,0,0" Name="panel_EngineeringRibbon_66_0" SmallImageSource="icons8/r_changemodule16.png" ToolTipDescription="Change the module type if the selected blocks." ToolTipImageSource="icons8/r_changemodule16.png" ToolTipTitle="Change Module Type"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="AT" Label="Add to Thread" Margin="2,0,0,0" Name="panel_EngineeringRibbon_67_0" SmallImageSource="icons8/r_addthread16.png" ToolTipDescription="Add the selected blocks to a specified thread block." ToolTipImageSource="icons8/r_addthread16.png" ToolTipTitle="Add to Thread"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="RT" Label="Remove from Thread" Margin="2,0,0,0" Name="panel_EngineeringRibbon_68_0" SmallImageSource="icons8/r_removethread16.png" ToolTipDescription="Remove the selected blocks from a thread." ToolTipImageSource="icons8/r_removethread16.png" ToolTipTitle="Remove from Thread"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Connect">
+      <SimExplorer:UIControlLegacyContent Margin="2,2,2,2" Name="panel_EngineeringRibbon_70_0"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="AC" Label="Auto" LargeImageSource="icons8/r_connectauto.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_71_0" SmallImageSource="icons8/r_connectauto.png" ToolTipDescription="Make a connection between blocks using a linestyle that is assigned automatically according to the connected block types." ToolTipImageSource="icons8/r_connectauto.png" ToolTipTitle="Auto"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="CC" Label="Custom" LargeImageSource="icons8/r_connectcustom.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_72_0" SmallImageSource="icons8/r_connectcustom.png" ToolTipDescription="Make a connection between blocks using a custom linestyle." ToolTipImageSource="icons8/r_connectcustom.png" ToolTipTitle="Custom"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Text">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="TX" Label="Add Text" LargeImageSource="icons8/r_text.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_74_0" SmallImageSource="icons8/r_text.png" ToolTipDescription="Add text annotations to the graphic." ToolTipImageSource="icons8/r_text.png" ToolTipTitle="Add Text"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Grid">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="GR" Label="Properties" Margin="2,0,0,0" Name="panel_EngineeringRibbon_76_0" SmallImageSource="icons8/r_grid16.png" ToolTipDescription="View or modify the grid pitch." ToolTipImageSource="icons8/r_grid16.png" ToolTipTitle="Properties"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="GU" Label="Grid Up" Margin="2,0,0,0" Name="panel_EngineeringRibbon_77_0" SmallImageSource="icons8/r_gridup16.png" ToolTipDescription="Increase the grid pitch." ToolTipImageSource="icons8/r_gridup16.png" ToolTipTitle="Grid Up"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="GD" Label="Grid Down" Margin="2,0,0,0" Name="panel_EngineeringRibbon_78_0" SmallImageSource="icons8/r_griddown16.png" ToolTipDescription="Decrease the grid pitch." ToolTipImageSource="icons8/r_griddown16.png" ToolTipTitle="Grid Down"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Tools">
+      <SimExplorer:UIControlRibbonSplitButton IsEnabled="False" KeyTip="PR" Label="Properties" LargeImageSource="icons8/r_properties.png" Name="panel_EngineeringRibbon_80_0" SmallImageSource="icons8/r_properties.png" ToolTipDescription="View or modify the properties for the selected graphic elements." ToolTipImageSource="icons8/r_properties.png" ToolTipTitle="Properties">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonSplitButton>
+      <SimExplorer:UIControlRibbonMenuButton IsEnabled="False" KeyTip="CH" Label="Check" LargeImageSource="icons8/r_check.png" Name="panel_EngineeringRibbon_81_0" SmallImageSource="icons8/r_check.png" ToolTipDescription="Run model integrity and error checks on the current graphic or all graphics." ToolTipImageSource="icons8/r_check.png" ToolTipTitle="Check">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonMenuButton>
+    </RibbonGroup>
+    <RibbonGroup Header="Markup">
+      <SimExplorer:UIControlRibbonMenuButton IsEnabled="False" KeyTip="AM" Label="Add" LargeImageSource="icons8/r_addmarkup.png" Name="panel_EngineeringRibbon_83_0" SmallImageSource="icons8/r_addmarkup.png" ToolTipDescription="Apply markup highlights to the selected elements." ToolTipImageSource="icons8/r_addmarkup.png" ToolTipTitle="Add">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonMenuButton>
+      <SimExplorer:UIControlRibbonMenuButton IsEnabled="False" KeyTip="DM" Label="Draw" LargeImageSource="icons8/r_drawmarkup.png" Name="panel_EngineeringRibbon_84_0" SmallImageSource="icons8/r_drawmarkup.png" ToolTipDescription="Select and add markup highlights to graphic elements." ToolTipImageSource="icons8/r_drawmarkup.png" ToolTipTitle="Draw">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonMenuButton>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="RM" Label="Remove" LargeImageSource="icons8/r_remmarkup.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_85_0" SmallImageSource="icons8/r_remmarkup.png" ToolTipDescription="Remove highlights from the selected graphic elements." ToolTipImageSource="icons8/r_remmarkup.png" ToolTipTitle="Remove"/>
+      <SimExplorer:UIControlRibbonCheckBox Content="Show" Margin="4,3,2,3" Name="panel_EngineeringRibbon_86_0" ToolTip="Show or hide markup highlights."/>
+    </RibbonGroup>
+  </SimExplorer:UIControlRibbonTab>
+
+  <SimExplorer:UIControlRibbonTab Header="VIEW" KeyTip="V" Name="panel_EngineeringRibbon_87_0">
+    <RibbonGroup Header="Dialogs">
+      <SimExplorer:UIControlRibbonButton KeyTip="CD" Label="Close" LargeImageSource="icons8/r_closedialogs.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_89_0" SmallImageSource="icons8/r_closedialogs.png" ToolTipDescription="Close all dialogs." ToolTipImageSource="icons8/r_closedialogs.png" ToolTipTitle="Close"/>
+      <SimExplorer:UIControlRibbonButton KeyTip="HD" Label="Hide" LargeImageSource="icons8/r_hidedialogs.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_90_0" SmallImageSource="icons8/r_hidedialogs.png" ToolTipDescription="Hide all dialogs. Use Show to map hidden dialogs." ToolTipImageSource="icons8/r_hidedialogs.png" ToolTipTitle="Hide"/>
+      <SimExplorer:UIControlRibbonButton KeyTip="SD" Label="Show" LargeImageSource="icons8/r_showdialogs.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_91_0" SmallImageSource="icons8/r_showdialogs.png" ToolTipDescription="Show all hidden dialogs." ToolTipImageSource="icons8/r_showdialogs.png" ToolTipTitle="Show"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Windows">
+      <SimExplorer:UIControlRibbonCheckBox Content="Navigator" Margin="4,3,2,3" Name="panel_EngineeringRibbon_93_0" ToolTip="Show or hide the Navigator window."/>
+      <SimExplorer:UIControlRibbonCheckBox Content="Console" Margin="4,3,2,3" Name="panel_EngineeringRibbon_94_0" ToolTip="Show or hide the console window."/>
+    </RibbonGroup>
+    <RibbonGroup Header="Layers">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="LD" Label="Layers" LargeImageSource="icons8/r_layers.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_96_0" SmallImageSource="icons8/r_layers.png" ToolTipDescription="Manage layer visibility." ToolTipImageSource="icons8/r_layers.png" ToolTipTitle="Layers"/>
+      <SimExplorer:UIControlRibbonCheckBox Content="Hidden" IsEnabled="False" Margin="4,3,2,3" Name="panel_EngineeringRibbon_97_0" ToolTip="Show or hide the Hidden layer."/>
+      <SimExplorer:UIControlRibbonCheckBox Content="Engineer" IsEnabled="False" Margin="4,3,2,3" Name="panel_EngineeringRibbon_98_0" ToolTip="Show or hide the Engineer layer."/>
+      <SimExplorer:UIControlRibbonCheckBox Content="Instructor" IsEnabled="False" Margin="4,3,2,3" Name="panel_EngineeringRibbon_99_0" ToolTip="Show or hide the Instructor layer."/>
+      <SimExplorer:UIControlRibbonCheckBox Content="Background" IsEnabled="False" Margin="4,3,2,3" Name="panel_EngineeringRibbon_100_0" ToolTip="Show or hide the Background layer."/>
+    </RibbonGroup>
+    <RibbonGroup Header="Graphic">
+      <SimExplorer:UIControlRibbonSplitButton IsEnabled="False" KeyTip="ZI" Label="Zoom View" LargeImageSource="icons8/r_zoomimage.png" Name="panel_EngineeringRibbon_102_0" SmallImageSource="icons8/r_zoomimage.png" ToolTipDescription="Create a named view area in the graphic, or zoom to a pre-defined view." ToolTipImageSource="icons8/r_zoomimage.png" ToolTipTitle="Zoom View">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonSplitButton>
+      <SimExplorer:UIControlRibbonCheckBox Content="Show Markers" Margin="4,3,2,3" Name="panel_EngineeringRibbon_103_0" ToolTip="Show or hide terminal. text-node and symbol markers."/>
+    </RibbonGroup>
+  </SimExplorer:UIControlRibbonTab>
+
+  <SimExplorer:UIControlRibbonTab Header="TOOLS" KeyTip="T" Name="panel_EngineeringRibbon_104_0">
+    <RibbonGroup Header="Setup">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="SP" Label="Search Path" LargeImageSource="icons8/r_searchpath.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_106_0" SmallImageSource="icons8/r_searchpath.png" ToolTipDescription="Manage the search path hierarchy used to locate project resources and symbols." ToolTipImageSource="icons8/r_searchpath.png" ToolTipTitle="Search Path"/>
+      <SimExplorer:UIControlRibbonButton KeyTip="CL" Label="Create Link" LargeImageSource="icons8/r_createlink.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_107_0" SmallImageSource="icons8/r_createlink.png" ToolTipDescription="Create a link from a template graphic." ToolTipImageSource="icons8/r_createlink.png" ToolTipTitle="Create Link"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Model">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="EM" Label="Export Model" LargeImageSource="icons8/r_exportmodel.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_109_0" SmallImageSource="icons8/r_exportmodel.png" ToolTipDescription="Export model data from the current model." ToolTipImageSource="icons8/r_exportmodel.png" ToolTipTitle="Export Model"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="MR" Label="Merge Model" LargeImageSource="icons8/r_mergemodel.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_110_0" SmallImageSource="icons8/r_mergemodel.png" ToolTipDescription="Merge model data into the current model." ToolTipImageSource="icons8/r_mergemodel.png" ToolTipTitle="Merge Model"/>
+      <SimExplorer:UIControlRibbonButton KeyTip="MM" Label="Model Map" LargeImageSource="icons8/r_modelmap.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_111_0" SmallImageSource="icons8/r_modelmap.png" ToolTipDescription="Show an overview representation of all timelines in the project." ToolTipImageSource="icons8/r_modelmap.png" ToolTipTitle="Model Map"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="ET" Label="Export Trend Data" LargeImageSource="icons8/r_exporttrend.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_112_0" SmallImageSource="icons8/r_exporttrend.png" ToolTipDescription="Export history data in spreadsheet format." ToolTipImageSource="icons8/r_exporttrend.png" ToolTipTitle="Export Trend Data"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="SR" Label="Stream Report" LargeImageSource="icons8/r_streamreport.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_113_0" SmallImageSource="icons8/r_streamreport.png" ToolTipDescription="Generate a stream data report." ToolTipImageSource="icons8/r_streamreport.png" ToolTipTitle="Stream Report"/>
+    </RibbonGroup>
+    <RibbonGroup Header="MCL">
+      <SimExplorer:UIControlRibbonButton KeyTip="RM" Label="Run MCL" LargeImageSource="icons8/r_mcl.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_115_0" SmallImageSource="icons8/r_mcl.png" ToolTipDescription="Run an MCL program." ToolTipImageSource="icons8/r_mcl.png" ToolTipTitle="Run MCL"/>
+      <SimExplorer:UIControlRibbonButton KeyTip="MG" Label="MCL Manager" LargeImageSource="icons8/r_mclman.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_116_0" SmallImageSource="icons8/r_mclman.png" ToolTipDescription="Open the Mclman (MCL Manager) application." ToolTipImageSource="icons8/r_mclman.png" ToolTipTitle="MCL Manager"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Ramping">
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="RA" Label="Ramp" LargeImageSource="icons8/r_ramp.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_118_0" SmallImageSource="icons8/r_ramp.png" ToolTipDescription="Ramp a data-item." ToolTipImageSource="icons8/r_ramp.png" ToolTipTitle="Ramp"/>
+      <SimExplorer:UIControlRibbonButton KeyTip="RM" Label="Monitor" LargeImageSource="icons8/r_rampmonitor.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_119_0" SmallImageSource="icons8/r_rampmonitor.png" ToolTipDescription="Show the state of all ramped variables." ToolTipImageSource="icons8/r_rampmonitor.png" ToolTipTitle="Monitor"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Stream Visualisation">
+      <SimExplorer:UIControlRibbonSplitButton KeyTip="VC" Label="Components" LargeImageSource="icons8/r_visstream.png" Name="panel_EngineeringRibbon_121_0" SmallImageSource="icons8/r_visstream.png" ToolTipDescription="Setup or select stream component visualisation." ToolTipImageSource="icons8/r_visstream.png" ToolTipTitle="Components">
+        <RibbonSplitMenuItem Header="Failed to load menu"/>
+      </SimExplorer:UIControlRibbonSplitButton>
+      <SimExplorer:UIControlRibbonButton KeyTip="VM" Label="Thermo Method" LargeImageSource="icons8/r_thermoref.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_122_0" SmallImageSource="icons8/r_thermoref.png" ToolTipDescription="Show thermodynamic table method." ToolTipImageSource="icons8/r_thermoref.png" ToolTipTitle="Thermo Method"/>
+      <SimExplorer:UIControlRibbonButton IsEnabled="False" KeyTip="VO" Label="Turn Off" LargeImageSource="icons8/r_visoff.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_123_0" SmallImageSource="icons8/r_visoff.png" ToolTipDescription="Turn off stream visualisation." ToolTipImageSource="icons8/r_visoff.png" ToolTipTitle="Turn Off"/>
+    </RibbonGroup>
+    <RibbonGroup Header="Utilities">
+      <SimExplorer:UIControlRibbonButton KeyTip="BS" Label="Batch Script" LargeImageSource="icons8/r_batch.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_125_0" SmallImageSource="icons8/r_batch.png" ToolTipDescription="Run a batch script." ToolTipImageSource="icons8/r_batch.png" ToolTipTitle="Batch Script"/>
+      <SimExplorer:UIControlRibbonButton KeyTip="TB" Label="Table Builder" LargeImageSource="icons8/r_tablebuilder.png" Margin="2,0,0,0" Name="panel_EngineeringRibbon_126_0" SmallImageSource="icons8/r_tablebuilder.png" ToolTipDescription="Open the thermodynamics table builder application." ToolTipImageSource="icons8/r_tablebuilder.png" ToolTipTitle="Table Builder"/>
+    </RibbonGroup>
+  </SimExplorer:UIControlRibbonTab>
+
+</Ribbon>

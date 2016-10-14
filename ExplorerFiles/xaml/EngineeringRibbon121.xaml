@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<RibbonSplitButton xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:SimExplorer="clr-namespace:Kongsberg.KSpice.SimExplorer;assembly=SimExplorer" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <RibbonGallery MaxColumnCount="1" MaxHeight="200" ScrollViewer.VerticalScrollBarVisibility="Auto">
+    <RibbonGalleryCategory>
+      <SimExplorer:UIControlRibbonGalleryItem Content="Stream Temperature" MinWidth="150" Name="panel_EngineeringRibbon_121_0"/>
+      <SimExplorer:UIControlRibbonGalleryItem Content="Oil Component 4" Name="panel_EngineeringRibbon_121_1"/>
+      <SimExplorer:UIControlRibbonGalleryItem Content="Oil Component 1" Name="panel_EngineeringRibbon_121_2"/>
+    </RibbonGalleryCategory>
+  </RibbonGallery>
+
+</RibbonSplitButton>

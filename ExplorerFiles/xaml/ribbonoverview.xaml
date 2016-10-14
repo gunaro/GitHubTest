@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?>
+<RibbonSplitButton xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:SimExplorer="clr-namespace:Kongsberg.KSpice.SimExplorer;assembly=SimExplorer" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Project Explorer" ImageSource="icons8/r_projectexplorer16.png" IsEnabled="False" KeyTip="A" Name="menu_ribbonoverview_1_0"/>
+
+  <Separator/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Centrifugal Pumps" IsEnabled="False" KeyTip="P" Name="menu_ribbonoverview_3_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="C_ompressors" IsEnabled="False" KeyTip="o" Name="menu_ribbonoverview_4_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Controllers" IsEnabled="False" KeyTip="C" Name="menu_ribbonoverview_5_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Drums" IsEnabled="False" KeyTip="D" Name="menu_ribbonoverview_6_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="FieldTransmitters" IsEnabled="False" KeyTip="T" Name="menu_ribbonoverview_7_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Heat exchangers" IsEnabled="False" KeyTip="H" Name="menu_ribbonoverview_8_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Pipes" IsEnabled="False" KeyTip="i" Name="menu_ribbonoverview_9_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="P/F Networks" IsEnabled="False" KeyTip="N" Name="menu_ribbonoverview_10_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Safety valves" IsEnabled="False" KeyTip="f" Name="menu_ribbonoverview_11_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Separators" IsEnabled="False" KeyTip="S" Name="menu_ribbonoverview_12_0"/>
+
+  <SimExplorer:UIControlRibbonSplitMenuItem Header="Valves" IsEnabled="False" KeyTip="V" Name="menu_ribbonoverview_13_0"/>
+
+</RibbonSplitButton>
