@@ -248,9 +248,15 @@
      0000000:00:00  TRACE: Model Initialization. Time elapsed: 58 ms.
 >>>>>>> origin/master
      0000000:00:00  PROGRESS: Model initialisation Complete.
+<<<<<<< HEAD
      0000000:00:00  INFO: Project \\rigoberto\d$\k-spice-projects\GitHubTest loaded
      0000000:00:00  INFO: Working Directory: \\rigoberto\d$\k-spice-projects\GitHubTest\TimeLines\Engineering\Applications\ProcessModel.
      0000000:00:00  INFO: Starting with command line arguments:"-instance 0 -project "\\rigoberto\d$\k-spice-projects\GitHubTest" -PartnerName "GitHubTest/Engineering/ProcessModel" -NetMaster 0 -PartnerBackground"
+=======
+     0000000:00:00  INFO: Project \\GBGUI024\c$\K-Spice-Projects\GitHubTest loaded
+     0000000:00:00  INFO: Working Directory: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\TimeLines\Engineering\Applications\ProcessModel.
+     0000000:00:00  INFO: Starting with command line arguments:"-instance 0 -project "\\GBGUI024\c$\K-Spice-Projects\GitHubTest" -PartnerName "GitHubTest/Engineering/ProcessModel" -NetMaster 0 -PartnerBackground"
+>>>>>>> origin/master
      0000000:00:00  WARNING: Unknown command line option: PartnerBackground.
      0000000:00:00  INFO: Loading components from C:\Program Files (x86)\Kongsberg\K-Spice\bin\Components\.
      0000000:00:00  INFO: Loading component: C:\Program Files (x86)\Kongsberg\K-Spice\bin\ModelServer.exe. Product version: 3.5.7.0
@@ -458,9 +464,12 @@
      0000000:00:00  INFO: Loading definition for module SignalManipulator.
      0000000:00:00  INFO: Loading definition for module SolarASC.
      0000000:00:00  INFO: Loading definition for module SplitRange.
+<<<<<<< HEAD
      0000000:00:00  INFO: Loading definition for module EmulsionViscosityManager.
      0000000:00:00  INFO: Loading definition for module EmulsionViscosityMonitor.
      0000000:00:00  INFO: Loading definition for module VibrationEstimator.
+=======
+>>>>>>> origin/master
      0000000:00:00  INFO: Loading definition for module SteadyStateIdentifier.
      0000000:00:00  INFO: Loading definition for module StreamBoundary.
      0000000:00:00  INFO: Loading definition for module AnalogSwitch.
@@ -492,8 +501,13 @@
      0000000:00:00  INFO: Loading definition for module ViscosityCalculations.
      0000000:00:00  INFO: Loading definition for module WaterEstimator.
      0000000:00:00  INFO: Loading definition for module WellIndex.
+<<<<<<< HEAD
      0000000:00:00  PROGRESS: Module definitions loaded. 237 modules read. 237 supported in ModelServer.
      0000000:00:00  TRACE: Reading module manifest. Time elapsed: 1,525 ms.
+=======
+     0000000:00:00  PROGRESS: Module definitions loaded. 234 modules read. 234 supported in ModelServer.
+     0000000:00:00  TRACE: Reading module manifest. Time elapsed: 1,669 ms.
+>>>>>>> origin/master
      0000000:00:00  INFO: Created new empty model
      0000000:00:00  INFO: Loading the available thermo packages.
      0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
@@ -503,8 +517,15 @@
      0000000:00:00  INFO: Loading the available thermo packages.
      0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
      0000000:00:00  INFO: The thermo package "ThermoTable" has been loaded.
+<<<<<<< HEAD
      0000000:00:00  INFO: Thermo file directory: \\rigoberto\d$\k-spice-projects\GitHubTest\TimeLines\Engineering\Applications\ProcessModel\
      0000000:00:00  INFO: ThermoControl: Number of thermodynamic methods loaded: 0
      0000000:00:00  INFO: Model polling time set to 1 seconds.
      0000000:00:00  TRACE: Model Initialization. Time elapsed: 54 ms.
+=======
+     0000000:00:00  INFO: Thermo file directory: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\TimeLines\Engineering\Applications\ProcessModel\
+     0000000:00:00  INFO: ThermoControl: Number of thermodynamic methods loaded: 0
+     0000000:00:00  INFO: Model polling time set to 1 seconds.
+     0000000:00:00  TRACE: Model Initialization. Time elapsed: 66 ms.
+>>>>>>> origin/master
      0000000:00:00  PROGRESS: Model initialisation Complete.

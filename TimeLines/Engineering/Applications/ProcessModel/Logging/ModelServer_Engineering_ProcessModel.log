@@ -44,6 +44,7 @@
      0000000:00:00  TRACE: Reading file \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val.
      0000000:00:00  INFO: Connecting 1 blocks.
      0000000:00:00  TRACE: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val. Time elapsed: 12 ms.
+<<<<<<< HEAD
      0000000:00:00  TRACE: Reading file \\rigoberto\d$\k-spice-projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.mdl.
      0000000:00:00  INFO: Loading the available thermo packages.
      0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
@@ -59,3 +60,21 @@
      0000000:00:00  INFO: Connecting 1 blocks.
      0000000:00:00  TRACE: \\rigoberto\d$\k-spice-projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val. Time elapsed: 12 ms.
      0000000:00:00  INFO: ******* Shutdown of ModelServer at 2016-10-14 12:59:36 *******
+=======
+     0000000:00:00  INFO: ******* Shutdown of ModelServer at 2016-10-14 13:02:34 *******
+     0000000:00:00  TRACE: Reading file \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.mdl.
+     0000000:00:00  INFO: Loading the available thermo packages.
+     0000000:00:00  INFO: The thermo package "DirectCallMultiflash" has been loaded.
+     0000000:00:00  INFO: The thermo package "ThermoTable" has been loaded.
+     0000000:00:00  TRACE: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.mdl. Time elapsed: 23 ms.
+     0000000:00:00  INFO: Using user's trend definition settings.
+     0000000:00:00  INFO: Removing empty file : pictures.def.
+     0000000:00:00  INFO: Removing empty file : \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.dbl.
+     0000000:00:00  INFO: Model polling time set to 1 seconds.
+     0000000:00:00  TRACE: Reading file \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.prm.
+     0000000:00:00  TRACE: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.prm. Time elapsed: 4 ms.
+     0000000:00:00  TRACE: Reading file \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val.
+     0000000:00:00  INFO: Connecting 1 blocks.
+     0000000:00:00  TRACE: \\GBGUI024\c$\K-Spice-Projects\GitHubTest\Timelines\Engineering\Applications\ProcessModel\GitHubTest.val. Time elapsed: 13 ms.
+     0000000:00:00  INFO: ******* Shutdown of ModelServer at 2016-10-14 13:03:44 *******
+>>>>>>> origin/master
